@@ -1,6 +1,6 @@
-package com.blaine.springcloud;
+package com.blaine.springcloud.utils;
 
-public class test {
+public class StringFormatUtils {
     public static void main(String[] args) {
         //将要添加的GAV坐标复制过来
         String pomInfo = "private static final String REST_URL_PREFIX = \"http://localhost:8001\";\n" +
@@ -45,5 +45,4 @@ public class test {
         System.out.println(pomInfo);
         return pomInfo;
     }
-
 }
